@@ -1,0 +1,23 @@
+Guarantee breakfast delivery in under 25 minutes across the city
+Offer various prepackaged breakfast options and allow customers to assemble individual breakfasts from a list of products
+Support the inclusion of both simple and prepackaged products within orders
+Each product must have a unit and a price per unit, denominated in Euros
+Customers place orders over the phone, providing their unique seven-digit customer number with a two-digit area code and one-digit checksum
+Authenticate customers over the phone and check for blacklisting.
+Allow customers to directly name products, choose from a recommended list, or use a previous order as a blueprint to assemble their shopping cart
+Restrict to one blueprint order per new order, though a single order can be used as a blueprint multiple times
+Associate only one delivery address per customer, eliminating the need to specify it for each order
+Provide an eight-digit order number with a checksum at the end of the order process
+Packing clerks assemble orders and place them in a paper bag
+Print labels and invoices with specific details, including the names of the customer and packing clerk, address, order number, and assigned delivery clerk
+Allow for multiple prints of an invoice, each with a unique copy number
+Delivery clerks to calculate the best delivery route, often with the aid of a spreadsheet
+Require customers to sign an invoice copy to confirm delivery
+Enable customers to inquire about the status of their order using the order number
+Allow order cancellation by phone before the order is assembled. Cancellations are irreversible, and order updates require placing a new order
+Automate current processes with a web application, supporting specific browser versions for customers, packing clerks, delivery clerks, and managers
+Enable ordering and canceling via SMS, using specific formats for product codes and order numbers
+Replace signature-based delivery confirmation with a browser-based system where customers enter a password to confirm delivery
+Implement a product search function accessible via a browser without the need for authentication
+Automate the transfer of expected payment records to the existing payment system once an order is assembled
+Generate automatic daily business reports for managers, detailing orders, products, amounts, clerks involved, customers, addresses, and order numbers
